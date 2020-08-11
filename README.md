@@ -5,9 +5,9 @@ This is a template project for web applications using [Lucky](https://luckyframe
 ### How to use it?
 
 - Click [this link](https://github.com/stephendolan/lucky_jumpstart/generate)
-- Replace every instance of `my_app` with your application name, for example:
-  - `mv src/my_app.cr src/{your_app}.cr`
-  - `rg my_app -l | xargs sed -i '' 's/my_app/{your_app}/g'`
+- Replace every instance of `component_basics` with your application name, for example:
+  - `mv src/component_basics.cr src/{your_app}.cr`
+  - `rg component_basics -l | xargs sed -i '' 's/component_basics/{your_app}/g'`
 - Run `./script/setup`
 - Run `docker-compose up`
 - Run `lucky dev`
